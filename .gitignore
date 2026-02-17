@@ -1,0 +1,50 @@
+
+# --- Compiled Java classes ---
+*.class
+
+# --- Log files ---
+*.log
+
+# --- Package Files (Jar, War, Nar, Ear) ---
+# It's better to build these from source than to store them
+*.jar
+*.war
+*.nar
+*.ear
+
+# --- Build Tool Directories ---
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# --- IDE Specifics ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
